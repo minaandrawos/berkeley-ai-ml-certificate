@@ -35,7 +35,7 @@ Two Kaggle datasets, stored as CSV files in [`data/`](data/):
 - **Secondary drivers**: after brand, the most important features are case material and movement (precious metals and mechanical movements carry premiums over steel and quartz), followed by condition and original papers. Listings with neither box nor papers have the lowest median price.
 - **Brand-mix effects**: some simple comparisons are misleading. Used (Very good) watches have a higher overall median than New ones largely because they come from pricier brands; within the same brand, New is priced higher for 76% of brands.
 - **Year of production**: prices follow a non-linear pattern by production decade (Dataset 1), and 41% of years are missing in the modeling data (Dataset 2). As a straight-line `watch_age` feature it adds almost nothing once brand is known. This means age is not useful *in a linear form*, not that it doesn't matter.
-- **Model performance**: the baseline reliably places a watch in the right price tier (R² = 0.80), but a typical ~37% error is not yet precise enough to price individual watches for investment decisions. It also under-predicts the most expensive watches and over-predicts the cheapest ones.
+- **Model performance**: the baseline reliably places a watch in the right price tier (R² = 0.80), but a typical ~37% error is not yet precise enough for investment decisions. It also under-predicts the most expensive watches and over-predicts the cheapest ones.
 
 #### Next steps
 - **Advanced modeling**: try tree-based models (Random Forest) with cross-validated hyperparameter tuning, which can capture brand x material interactions and the non-linear age effect.
