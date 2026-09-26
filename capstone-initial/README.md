@@ -8,7 +8,7 @@ The luxury watch market has grown significantly as both a passion asset and an a
 #### Rationale
 Understanding the drivers of luxury watch prices is crucial for collectors, investors and secondary-market platforms. Knowing which combinations of features best predict resale prices helps stakeholders make better-informed buying, selling and investment decisions.
 
-#### Question to answer
+#### Research Question
 What key combination of features (e.g. brand, movement, material, condition) most significantly affects the resale price of luxury watches?
 
 #### Data Sources
