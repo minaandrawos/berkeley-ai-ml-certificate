@@ -3,7 +3,7 @@
 **Author**: Mina Andrawos
 
 #### Executive summary
-The luxury watch market has grown significantly as both a passion asset and an alternative investment. This project identifies the features and patterns that drive the resale price of luxury watches. Using exploratory data analysis (EDA) and a baseline regression model on more than 40,000 listings, it measures how brand, case material, movement, condition, box & papers and year of production affect secondary-market prices. **Brand is by far the strongest driver.** A simple Ridge Regression baseline explains about **80% of the variance** in (log) price, and its typical prediction is within **about 37%** of the actual price.
+The luxury watch market has grown significantly as both a passion asset and an alternative investment. This project identifies the features and patterns that drive the resale price of luxury watches. Using exploratory data analysis (EDA) and a baseline regression model on thousands of listings, it measures how brand, case material, movement, condition, box & papers and year of production affect secondary-market prices. **Brand is by far the strongest driver.** A simple Ridge Regression baseline explains about **80% of the variance** in (log) price, and its typical prediction is within **about 37%** of the actual price.
 
 #### Rationale
 Understanding the drivers of luxury watch prices is crucial for collectors, investors and secondary-market platforms. Knowing which combinations of features best predict resale prices helps stakeholders make better-informed buying, selling and investment decisions.
