@@ -1,0 +1,48 @@
+{
+  "selected_model": "Gradient Boosting",
+  "feature_set": "C: + Model line",
+  "features": [
+    "movement",
+    "case_material",
+    "bracelet_material",
+    "condition",
+    "gender",
+    "brand",
+    "model_line",
+    "size_mm",
+    "watch_age",
+    "is_year_approx",
+    "is_chronograph",
+    "is_gmt",
+    "is_calendar_complication",
+    "is_tourbillon_or_repeater",
+    "is_moonphase",
+    "has_diamonds",
+    "is_skeleton",
+    "is_limited_edition"
+  ],
+  "target": "log_price",
+  "random_state": 42,
+  "test_size": 0.2,
+  "best_params": {
+    "Dummy (mean)": {},
+    "Ridge": {
+      "alpha": 1
+    },
+    "Lasso": {
+      "alpha": 1e-05
+    },
+    "Random Forest": {
+      "max_depth": 20,
+      "max_features": 0.33,
+      "min_samples_leaf": 1,
+      "n_estimators": 150
+    },
+    "Gradient Boosting": {
+      "l2_regularization": 0.0,
+      "learning_rate": 0.05,
+      "max_iter": 1000,
+      "max_leaf_nodes": 63
+    }
+  }
+}
